@@ -1,7 +1,7 @@
 # when running hexo in a subdirectory (e.g. domain.tld/blog), remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
   #about: /about
   archives: /archives
   tags: /tags
@@ -28,7 +28,7 @@ menu_icons:
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo,next"
+keywords: "altdevblog,unreal,unity,c++,gamedev"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -85,7 +85,7 @@ social_icons:
   enable: true
   # Icon Mappings
   GitHub: github
-  Twitter: twitter
+  #Twitter: twitter
   Weibo: weibo
 
 
