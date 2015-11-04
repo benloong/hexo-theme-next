@@ -72,6 +72,26 @@
   }
 }
 
+
+.post-meta-item-icon {
+  display: none;
+  margin-right: 3px;
+  +tablet() {
+    display: inline-block;
+  }
+  +mobile() {
+    display: inline-block;
+  }
+}
+.post-meta-item-text {
+  +tablet() {
+    display: none;
+  }
+  +mobile() {
+    display: none;
+  }
+}
+
 .posts-expand .post-comments-count {
   +mobile() { display: none; }
 }
@@ -160,7 +180,7 @@
     color: $read-more-color;
     font-size: $read-more-font-size;
     background: $read-more-bg-color;
-    border-raduis: $read-more-border-radius;
+    border-radius: $read-more-border-radius;
   }
   .btn:hover {
     @extend .btn:hover;
