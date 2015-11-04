@@ -1,7 +1,7 @@
 # when running hexo in a subdirectory (e.g. domain.tld/blog), remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  categories: /categories
+  #categories: /categories
   #about: /about
   archives: /archives
   tags: /tags
@@ -30,6 +30,7 @@ favicon: /favicon.ico
 # Set default keywords (Use a comma to separate)
 keywords: "altdevblog,unreal,unity,c++,gamedev"
 
+avatar: images/avatar.png
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
@@ -58,7 +59,7 @@ mathjax:
 
 # Schemes
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -104,13 +105,19 @@ auto_excerpt:
 # Use Lato font
 use_font_lato: true
 
+# Share
+duoshuo_share: true
+
+# Duoshuo ShortName
+duoshuo_shortname: altdev
+
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: true
   admin_enable: false
-  user_id: 0
+  user_id: 14006424
   #admin_nickname: ROOT
 
 # Facebook SDK Support.
