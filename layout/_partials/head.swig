@@ -29,11 +29,7 @@
 
 
 {% if theme.use_font_lato %}
-  {% if config.language === 'zh-Hans' %}
-    <link href='//fonts.lug.ustc.edu.cn/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-  {% else %}
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-  {% endif %}
+  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
 {% endif %}
 
 
@@ -86,6 +82,10 @@
     scheme: '{{ theme.scheme }}',
     sidebar: '{{ theme.sidebar }}',
     fancybox: {{ theme.fancybox }},
-    motion: {{ theme.use_motion }}
+    motion: {{ theme.use_motion }},
+    duoshuo: {
+      userId: {{ theme.duoshuo_info.user_id }},
+      author: '{{ theme.duoshuo_info.admin_nickname | default(__('author'))}}'
+    }
   };
 </script>
