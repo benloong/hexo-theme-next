@@ -16,7 +16,7 @@ rss:
 # Specify the date when the site was setup
 since: 2015
 
-avatar: images/avatar.png
+avatar: http://altdev.io/images/avatar.png
 
 
 # ---------------------------------------------------------------
@@ -70,7 +70,10 @@ scheme: Pisces
 
 # Social links
 social:
-  GitHub: benloong
+  GitHub: https://github.com/benloong
+  Twitter: https://twitter.com/ben1ong
+  Weibo: http://weibo.com/bugizmo/
+  Douban: http://www.douban.com/people/inq/
   #Others:
 
 # Social Icons
